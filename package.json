@@ -5,7 +5,7 @@
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
-    "cite": "./buildCitations.sh",
+    "cite": "citation-js -i db/publications.bib -o db/publications -f json -s csl",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
