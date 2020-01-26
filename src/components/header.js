@@ -5,15 +5,18 @@ class Header extends Component {
   state = { active: false }
 
   handleClick = () => {
-    const { active } = this.state;
-    this.setState({active: !active});
-  };
+    const { active } = this.state
+    this.setState({ active: !active })
+  }
 
   render() {
     return (
       <Navbar active={this.state.active}>
         <Navbar.Brand>
-          <Navbar.Burger active={this.state.active} onClick={this.handleClick}/>
+          <Navbar.Burger
+            active={this.state.active}
+            onClick={this.handleClick}
+          />
         </Navbar.Brand>
         <Navbar.Menu>
           <Navbar.Container position="end">
@@ -29,4 +32,4 @@ class Header extends Component {
   }
 }
 
-export default Header;
+export default Header
