@@ -1,5 +1,10 @@
 [
   {
+    "title": "Risk-Sensitive Hosting Capacity",
+    "description": "A set of algorithms to evaluate the quantity of solar capacity that a network can feasibly support without introducing instabilities, known formally as the solar hosting capacity. This includes an algorithm to evaluate the maximal solar hosting capacity and a dynamic method of identifying the set of feasible solar hosting capacities.",
+    "github": "https://github.com/amadaban/RSHC"
+  },
+  {
     "title": "Stuka",
     "description": "A framework for solving certain classes of convex optimization problems. There are a myriad of methods for solving convex optimization problems and as a researcher in the field it is often difficult to understand precisely how these methods work and how they can be implemented. This library provides a framework for implementing algorithms that provides clarity to the algorithms and allows fast computation by leveraging libraries such as Eigen and SuiteSparse.",
     "github": "https://github.com/amadavan/Stuka",
