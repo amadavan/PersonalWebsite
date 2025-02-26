@@ -8,7 +8,6 @@ import { Columns } from "react-bulma-components"
 import { Heading } from "react-bulma-components"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons/faEnvelope"
-import { faAddressCard } from "@fortawesome/free-solid-svg-icons/faAddressCard"
 
 const Contact = () => (
   <Layout>
@@ -20,16 +19,7 @@ const Contact = () => (
             <Heading renderAs="p" heading>
               Email
             </Heading>
-            <p>madavan2@illiois.edu</p>
-          </Columns.Column>
-          <Columns.Column textAlignment="centered" size="one-third">
-            <FontAwesomeIcon icon={faAddressCard}/>
-            <Heading renderAs="p" heading>
-              Address
-            </Heading>
-            <p>4068 ECE Building</p>
-            <p>306 North Wright Street</p>
-            <p>Urbana Illinois 61801</p>
+            <p>avinash [dot] madavan [at] gmail.com</p>
           </Columns.Column>
         </Columns>
       </Container>
