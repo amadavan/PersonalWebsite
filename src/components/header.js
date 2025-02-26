@@ -1,5 +1,7 @@
+import "../scss/header.scss"
+
 import React, { Component } from "react"
-import Navbar from "react-bulma-components/lib/components/navbar"
+import { Navbar } from "react-bulma-components"
 
 class Header extends Component {
   state = { active: false }
@@ -19,7 +21,7 @@ class Header extends Component {
           />
         </Navbar.Brand>
         <Navbar.Menu>
-          <Navbar.Container position="end">
+          <Navbar.Container>
             <Navbar.Item href="/">Home</Navbar.Item>
             <Navbar.Item href="/research">Research</Navbar.Item>
             <Navbar.Item href="/projects">Projects</Navbar.Item>

@@ -23,10 +23,12 @@ class Presentation extends React.Component {
   }
 }
 
-export default () => (
+const Presentations = () => (
   <ul>
     {presentations.map(pres => (
       <Presentation data={pres}/>
     ))}
   </ul>
 )
+
+export default Presentations

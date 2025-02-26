@@ -1,10 +1,12 @@
 import "../scss/panel.scss"
 
 import React from "react"
-import Level from "react-bulma-components/lib/components/level"
+import { Level } from "react-bulma-components"
 
-export default ({ children }) => (
+const MainPanel = ({ children }) => (
   <Level className="main-panel">
     <Level.Item>{children}</Level.Item>
   </Level>
 )
+
+export default MainPanel

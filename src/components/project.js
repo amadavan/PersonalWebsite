@@ -1,7 +1,7 @@
 import "../scss/projects.scss"
 
 import React from "react"
-import Card from "react-bulma-components/lib/components/card"
+import { Card } from "react-bulma-components"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faGithub } from "@fortawesome/free-brands-svg-icons/faGithub"
 import { faBook } from "@fortawesome/free-solid-svg-icons/faBook"

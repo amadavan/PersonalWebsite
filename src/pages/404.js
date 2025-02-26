@@ -1,10 +1,10 @@
 import React from "react"
 import Layout from "../components/layout"
 import MainPanel from "../components/panel"
-import Columns from "react-bulma-components/lib/components/columns"
-import Heading from "react-bulma-components/lib/components/heading"
+import { Columns } from "react-bulma-components"
+import { Heading } from "react-bulma-components"
 
-export default () => (
+const Err = () => (
   <Layout>
     <MainPanel>
       <Columns centered>
@@ -15,3 +15,5 @@ export default () => (
     </MainPanel>
   </Layout>
 )
+
+export default Err

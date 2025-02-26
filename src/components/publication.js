@@ -17,10 +17,12 @@ class Publication extends React.Component {
   }
 }
 
-export default () => (
+const Publications = () => (
   <ul>
     {publications.map(pub => (
       <Publication key={pub.id} data={pub}/>
     ))}
   </ul>
 )
+
+export default Publications
